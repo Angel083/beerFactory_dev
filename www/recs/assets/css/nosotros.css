@@ -1,0 +1,179 @@
+
+@font-face {
+    font-family: "prohibition";
+    src: url("../fonts/Prohibition\ Rough.otf");
+}
+
+.contenedor-grupo{
+    padding-top: 4%;
+
+}
+.contenedor-text{
+  padding-bottom:5%;
+  text-align: center;
+}
+
+.contenedor-grupo2{
+    padding-bottom:1%;
+    text-align: center;
+  }
+  
+
+#titular{
+    color: white;
+    font-size: 2rem;
+    font-family: "prohibition", cursive;
+}
+#col1{
+    padding-top: 1%;
+}
+#enlace{
+    color:white;
+    font-weight: bold;
+    font-size: 0.4rem;
+    font-family: "prohibition", cursive;
+}
+.Arriba{
+    margin: auto;
+    display: inline-block;
+}
+#logo-grupo{
+    width: 100%;
+    display: inline;
+}
+#titular{
+    padding-top: 2%;
+}
+@media (min-width:320px) {
+    #titular{
+       
+        font-size:75%;
+        text-align: center;
+    }
+    #enlace{
+        font-size: 0.5rem;
+    }
+    #col1{
+        padding-right: 0%;
+    }
+    #col2{
+        padding-left: 0px;
+        padding-right: 0%;
+    }
+    #col3{
+        padding-left:0px; 
+        padding-right: 0px;
+    }
+    .demo{
+       width: 15%;
+       
+    }
+    .demo2{
+        width: 25%;
+
+     }
+    #logo-grupo{
+        width: 100%;
+    }
+  }
+@media (min-width:480px) {
+    #titular{
+        font-size: 1.1rem;
+    }
+    #enlace{
+        font-size: 0.6rem;
+    }
+    #logo-grupo{
+        width: 100%;
+    }
+  }
+@media (min-width: 768px) {
+    #titular{
+        font-size: 1.7rem;
+    }
+    #enlace{
+        font-size: 1.2rem;
+    }
+    #logo-grupo{
+        width: 100%;
+    }
+    
+  }
+@media (min-width: 1024px) {
+    #titular{
+        font-size: 2.3rem;
+    }
+    #enlace{
+        font-size: 1.2rem;
+    }
+    #logo-grupo{
+        width: 100%;
+    }
+    
+  }
+@media (min-width: 1280px) {
+    #titular{
+        font-size: 2.7rem;
+       padding-left: 1%;
+       padding-right: 1%;
+       padding-top: 2%;
+    }
+    #enlace{
+        font-size:1.5rem;
+    }
+    #logo-grupo{
+        width: 100% ;
+    }
+  }
+  @media (min-width:1400px) {
+    #titular{
+        font-size: 3.2rem;
+    }
+    #enlace{
+        font-size: 1.5rem;
+    }
+    #logo-grupo{
+        width: 100%;
+    }
+  }
+
+.container-historia {
+    /*background-image: url("../images/Nosotros/Manifiesto nosotros.jpg");*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_nosotros {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /*visibility: hidden;*/
+}
+
+.div-opciones {
+    position: absolute;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    z-index: 21;
+}
+
+
+
+.list-group-opciones>.list-group-item {
+    background-color: inherit;
+    color: #FFF;
+}
+
+@media (min-width: 1200px) {
+    .img_nosotros {
+        /*padding-bottom: 200px;*/
+    }
+}

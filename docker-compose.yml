@@ -1,0 +1,49 @@
+version: "3.1"
+services:
+  db:
+    image: mysql:5.6.51
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      # MYSQL_DATABASE: eks_content
+      # MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      # MYSQL_USER: su_bf
+      # MYSQL_PASSWORD: -B^7{N(#,&^e
+    volumes:
+      # - ./dump:/docker-entrypoint-initdb.dk
+      - beerfactorydb:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - default
+  www:
+    build: .
+    ports:
+      - 80:80
+    links:
+      - db
+    volumes:
+      - ./www:/var/www/html
+      # - ./config:/usr/local/etc/php
+    networks:
+      - default
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8000:80
+    environment:
+        - MYSQL_ROOT_PASSWORD:root
+        # - MYSQL_USER:root
+        - MYSQL_PASSWORD:root 
+        # - MYSQL_USER:"su_bf"
+        # - MYSQL_PASSWORD:"-B^7{N(#,&^e"
+    links: 
+      - db:db
+volumes:
+  dump:
+  www: {}
+  beerfactorydb:
+  # docker exec -i beerfactory-www-1 mysql -uroot --password=root bd_beerfactory < ./dump/bd_beerfactory.sql

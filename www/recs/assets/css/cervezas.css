@@ -1,0 +1,809 @@
+#container-cervezas {
+
+    background-image: url("../images/rockywall.gif");
+
+}
+
+
+
+.img-tarros {
+
+    background-image: url("../images/Full_HM.png");
+
+    height: 200px;
+
+}
+
+
+
+.tabs-submenu-cervezas {
+
+    display: block;
+
+    width: 80%;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+    padding-top: 60px;
+
+    padding-bottom: 0px;
+
+    text-align: center;
+
+}
+
+
+
+.w-inline-block {
+
+    max-width: 100%;
+
+    display: inline-block;
+
+}
+
+
+
+.w-tab-link {
+
+    position: relative;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    text-decoration: none;
+
+    padding: 7px 30px;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    color: #222222;
+
+    background-color: #dddddd;
+
+}
+
+
+
+.tab-link {
+
+    background-color: transparent;
+
+    font-size: 18px;
+
+    color: hsla(0, 0%, 100%, .6) !important;
+
+    border: 1px solid #dbb145;
+
+}
+
+
+
+.w-tab-link.w--current {
+
+    background-color: #C8C8C8;
+
+}
+
+
+
+.tab-link.w--current {
+
+    background-color: #dbb145;
+
+    color: #fff !important;
+
+    -webkit-transition: opacity 200ms ease;
+
+    transition: opacity 200ms ease;
+
+}
+
+
+
+.img-front-cervezas {
+
+    display: none;
+
+}
+
+
+
+.img-maridaje {
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+}
+
+
+
+.seccion-desc-maridaje {
+
+    display: block;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+    background-image: url(../images/Cervezas/patron.gif);
+
+    background-position: 0px 0px;
+
+    background-size: 9px;
+
+}
+
+
+
+.img-maridaje {
+
+    margin-top: 25px;
+
+}
+
+
+
+.img-maridaje-info {
+
+    margin-bottom: 35px;
+
+}
+
+
+
+.img-beer_to_go {
+
+    padding: 35px;
+
+}
+
+
+
+.imgs-beer_to_go {
+
+    padding: 10px;
+
+}
+
+
+
+h4 {
+
+    margin-top: 0px;
+
+    margin-bottom: 10px;
+
+    font-family: 'Prohibition regular', sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+
+    line-height: 17px;
+
+    color: #f8e9c2;
+
+}
+
+
+
+.descripcion-cerveza-extra {
+
+    color: #f8e9c2;
+
+    display: block;
+
+    max-width: 300px;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+    font-family: 'Geogtq rg', sans-serif;
+
+    font-size: 17px;
+
+    line-height: 20px;
+
+}
+
+
+
+.container-tamanos {
+
+    padding-bottom: 15px;
+
+}
+
+
+
+.img-maridaje_sec2 {
+
+    margin-top: 0px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+.icon-add-img {
+
+    width: 150px;
+
+    height: 150px;
+
+}
+
+
+
+.col-add-img {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.col-img-cervezas {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.content-carrousel {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.div-opciones {
+
+    position: absolute;
+
+    background-color: initial;
+
+    padding: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    border-radius: 5px;
+
+    z-index: 21;
+
+}
+
+
+
+.div-opciones-carrousel {
+
+    position: inherit;
+
+    background-color: inherit;
+
+    padding: 20px;
+
+    padding-top: 0px;
+
+    padding-bottom: 0px;
+
+    border-radius: 5px;
+
+    z-index: 21;
+
+    bottom: 125px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: block;
+
+    width: fit-content;
+
+}
+
+
+
+.list-group-item-eliminar {
+
+    background-color: initial;
+
+    color: #fff;
+
+}
+
+
+
+.icon-add {
+
+    width: 25px;
+
+    height: 25px;
+
+    margin-right: 5px;
+
+}
+
+
+
+.btnAdd {
+
+    margin-bottom: 10px;
+
+    margin-left: 10px;
+
+    margin-top: 10px;
+
+}
+
+
+
+.svg-add {
+
+    fill: #FFF;
+
+}
+
+.container-maridaje{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+
+    .img-tarros {
+
+        height: 110px;
+
+        background-size: cover;
+
+    }
+
+    .tab-link {
+
+        display: block;
+
+    }
+
+    .tabs-submenu-cervezas {
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+
+    }
+
+    .img-front-cervezas {
+
+        padding: 25px;
+
+        position: absolute;
+
+        z-index: 21;
+
+        top: auto;
+
+        bottom: -10px;
+
+        left: 5px;
+
+        right: 0;
+
+    }
+
+    .img-back-cervezas {
+
+        margin-bottom: 10px;
+
+    }
+
+    .img-maridaje {
+
+        padding-left: 18%;
+
+        padding-right: 18%;
+
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+
+    .img-tarros {
+
+        height: 110px;
+
+        background-size: cover;
+
+    }
+
+    .tabs-submenu-cervezas {
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+
+    }
+
+    .img-front-cervezas {
+
+        padding: 25px;
+
+        position: absolute;
+
+        z-index: 21;
+
+        top: auto;
+
+        bottom: -15px;
+
+        left: 0;
+
+        right: 0;
+
+    }
+
+    .img-back-cervezas {
+
+        margin-bottom: 10px;
+
+    }
+
+    .img-maridaje {
+
+        padding-left: 25%;
+
+        padding-right: 25%;
+
+    }
+
+    .img-maridaje-info {
+
+        padding-left: 11%;
+
+        padding-right: 11%;
+
+    }
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .img-tarros {
+
+        height: 110px;
+
+        background-size: cover;
+
+    }
+
+    .tabs-submenu-cervezas {
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+
+    }
+
+    .img-front-cervezas {
+
+        padding: 25px;
+
+        position: absolute;
+
+        z-index: 21;
+
+        top: -20px;
+
+        bottom: auto;
+
+        left: 5px;
+
+        right: 0;
+
+        width: 100%;
+
+    }
+
+    .img-back-cervezas {
+
+        margin-bottom: 10px;
+
+    }
+
+    .img-maridaje {
+
+        padding-left: 25%;
+
+        padding-right: 25%;
+
+    }
+
+    .img-maridaje-info {
+
+        padding-left: 18%;
+
+        padding-right: 18%;
+
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .img-tarros {
+
+        height: 110px;
+
+        background-size: cover;
+
+    }
+
+    .tabs-submenu-cervezas {
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+
+    }
+
+    .img-front-cervezas {
+
+        padding: 25px;
+
+        position: absolute;
+
+        z-index: 21;
+
+        top: auto;
+
+        bottom: -10px;
+
+        left: 0;
+
+        right: 0;
+
+    }
+
+    .img-back-cervezas {
+
+        margin-bottom: 10px;
+
+    }
+
+    .img-maridaje {
+
+        padding-left: 33%;
+
+        padding-right: 33%;
+
+    }
+
+    .img-maridaje-info {
+
+        padding-left: 18%;
+
+        padding-right: 18%;
+
+    }
+
+    .img-maridaje_sec2 {
+
+        width: 75%;
+
+    }
+
+    .img-beer_to_go {
+
+        padding-left: 33%;
+
+        padding-right: 33%;
+
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .img-tarros {
+
+        height: 110px;
+
+        background-size: cover;
+
+    }
+
+    .tabs-submenu-cervezas {
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+
+    }
+
+    .img-front-cervezas {
+
+        padding: 25px;
+
+        position: absolute;
+
+        z-index: 21;
+
+        top: auto;
+
+        bottom: -10px;
+
+        left: 0;
+
+        right: 0;
+
+    }
+
+    .img-back-cervezas {
+
+        margin-bottom: 10px;
+
+    }
+
+    .img-maridaje {
+
+        padding-left: 35%;
+
+        padding-right: 35%;
+
+    }
+
+    .img-maridaje-info {
+
+        padding-left: 28%;
+
+        padding-right: 28%;
+
+    }
+
+    .img-maridaje_sec2 {
+
+        width: 100%;
+
+    }
+
+    .img-maridaje_sec2_1 {
+
+        width: 100%;
+
+    }
+
+    .img-beer_to_go {
+
+        padding-left: 35%;
+
+        padding-right: 35%;
+
+    }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .img-tarros {
+
+        height: 110px;
+
+        background-size: cover;
+
+    }
+
+    .tabs-submenu-cervezas {
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+
+    }
+
+    .img-front-cervezas {
+
+        padding: 15px;
+
+        position: absolute;
+
+        z-index: 21;
+
+        top: auto;
+
+        bottom: -5px;
+
+        left: 0;
+
+        right: 0;
+
+        width: 100%;
+
+    }
+
+    .img-back-cervezas {
+
+        margin-bottom: 10px;
+
+        width: 100%;
+
+    }
+
+    .img-maridaje {
+
+        padding-left: 38%;
+
+        padding-right: 38%;
+
+    }
+
+    .img-maridaje-info {
+
+        padding-left: 35%;
+
+        padding-right: 35%;
+
+    }
+
+    .img-maridaje_sec2 {
+
+        width: 100%;
+
+    }
+
+    .img-maridaje_sec2_1 {
+
+        width: 100%;
+
+        margin-left: 50px;
+
+    }
+
+    .img-beer_to_go {
+
+        padding-left: 35%;
+
+        padding-right: 35%;
+
+    }
+
+}

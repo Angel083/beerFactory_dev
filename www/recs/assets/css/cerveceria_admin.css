@@ -1,0 +1,39 @@
+.opciones {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    background-color: #000000bd;
+    color: #fff;
+    width: -webkit-fill-available;
+    height: fit-content;
+    margin-right: 20px;
+    display: grid;
+    align-items: center;
+}
+
+.icon-add {
+    height: min-content;
+}
+
+.col-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-add:hover {
+    fill: #dbb145;
+}
+
+.list-group-opciones>.list-group-item {
+    background-color: initial;
+}
+
+.list-group-item-eliminar {
+    margin-left: auto;
+}
+
+.list-group-item-ver {
+    margin-right: auto;
+}

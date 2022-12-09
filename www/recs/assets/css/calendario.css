@@ -1,0 +1,436 @@
+.img-thumbnail {
+    height: 30px;
+    width: 30px;
+    background-color: #7cfc0000;
+    border: none;
+}
+
+.table {
+    background-color: #7cfc0000;
+    border: none;
+    margin-bottom: 0;
+}
+
+.table>thead>tr>th {
+    color: #FFF;
+    text-align: center;
+}
+
+.table>tbody>tr>td {
+    color: #FFF;
+    text-align: center;
+}
+
+.text-titulo-col {
+    display: none;
+}
+
+.container-calendario {
+    background-image: url("../images/rockywall.gif");
+}
+
+.img-sort {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+
+/* The popup form - hidden by default */
+
+.form-popup {
+    display: none;
+    position: absolute;
+    /*bottom: 0;*/
+    right: auto;
+    border: 3px solid black;
+    z-index: 9;
+    width: 400px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: black;
+}
+
+
+/* Add styles to the form container */
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: black;
+    max-height: 170px;
+}
+
+
+/* Full-width input fields */
+
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #ddd;
+}
+
+
+/* When the inputs get focus, do something */
+
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for the submit/login button */
+
+.form-container .btn {
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    background-color: red;
+}
+
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+.form-container>label {
+    float: left;
+}
+
+#myInput {
+    height: 35px;
+}
+
+.cboxm {
+    display: none;
+    float: left;
+}
+
+.cboxd {
+    display: none;
+    float: left;
+}
+
+#mostrar_todo {
+    float: left;
+}
+
+.icon-add {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.svg-add {
+    fill: #FFF;
+}
+
+.svg_edit {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.svg_eliminar {
+    height: 20px;
+    width: 20px;
+}
+
+.col-checks {
+    padding-left: 0;
+}
+
+.checkbox {
+    margin-right: 8px;
+}
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+    th,
+    td {
+        display: block;
+        text-align: center;
+    }
+    th {
+        display: none;
+    }
+    td {
+        margin-bottom: 0px;
+        font-family: 'Geogtq rg', sans-serif;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 20px;
+        font-weight: 700;
+    }
+    .container-calendario {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .col-icon {
+        display: none;
+    }
+    .text-titulo-col {
+        display: block;
+        color: #dbb145;
+        font-family: 'Gotham bold', sans-serif;
+        margin-bottom: 0;
+    }
+    .img-calendario {
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 40px;
+    }
+    .td-icon {
+        border-top: 1px solid #dbb145 !important;
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+    tr {
+        border-top: 1px solid #dbb145 !important;
+    }
+    .table>tbody>tr>td {
+        border: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+    th,
+    td {
+        display: block;
+        text-align: center;
+    }
+    th {
+        display: none;
+    }
+    .container-calendario {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .col-icon {
+        display: none;
+    }
+    .text-titulo-col {
+        display: block;
+        color: #dbb145;
+        font-family: 'Gotham bold', sans-serif;
+        margin-bottom: 0;
+    }
+    .img-calendario {
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 40px;
+    }
+    .td-icon {
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        width: 100%;
+        display: block;
+    }
+    .td-promocion {
+        width: 100%;
+        display: block;
+    }
+    tr {
+        border-top: 1px solid #dbb145 !important;
+    }
+    .table>tbody>tr>td {
+        border: none;
+    }
+    td {
+        margin-bottom: 0px;
+        font-family: 'Geogtq rg', sans-serif;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 20px;
+        font-weight: 700;
+        display: inline-grid;
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    th,
+    td {
+        display: block;
+        text-align: center;
+    }
+    th {
+        display: none;
+    }
+    .container-calendario {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .col-icon {
+        display: none;
+    }
+    .text-titulo-col {
+        display: block;
+        color: #dbb145;
+        font-family: 'Gotham bold', sans-serif;
+        margin-bottom: 0;
+    }
+    .img-calendario {
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 40px;
+    }
+    .td-icon {
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        width: 100%;
+        display: block;
+    }
+    .td-promocion {
+        width: 100%;
+        display: block;
+    }
+    tr {
+        border-top: 1px solid #dbb145 !important;
+    }
+    .table>tbody>tr>td {
+        border: none;
+    }
+    td {
+        margin-bottom: 0px;
+        font-family: 'Geogtq rg', sans-serif;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 20px;
+        font-weight: 700;
+        display: inline-grid;
+        width: 33.33333333%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    th,
+    td {
+        font-size: 12px;
+        border: none !important;
+        font-family: 'Gotham bold', sans-serif;
+    }
+    td {
+        font-family: 'Geogtq rg', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .table td,
+    .table th {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+    .td-icon {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .img-thumbnail {
+        width: 38px;
+        height: 38px;
+    }
+    .img-calendario {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    td {
+        border-top: 1px solid #dbb145 !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    th,
+    td {
+        font-size: 12px;
+        border: none !important;
+        font-family: 'Gotham bold', sans-serif;
+    }
+    td {
+        font-family: 'Geogtq rg', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .table td,
+    .table th {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+    .td-icon {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .img-thumbnail {
+        width: 38px;
+        height: 38px;
+    }
+    .img-calendario {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    td {
+        border-top: 1px solid #dbb145 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    th,
+    td {
+        font-size: 12px;
+        border: none !important;
+        font-family: 'Gotham bold', sans-serif;
+    }
+    td {
+        font-family: 'Geogtq rg', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .table td,
+    .table th {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+    .td-icon {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .img-thumbnail {
+        width: 38px;
+        height: 38px;
+    }
+    .img-calendario {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    td {
+        border-top: 1px solid #dbb145 !important;
+    }
+}

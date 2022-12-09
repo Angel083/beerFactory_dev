@@ -1,0 +1,199 @@
+#container-privacidad {
+    background-image: url("../images/rockywall.gif");
+}
+
+.container_img_privacidad {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+
+.titulo-condiciones {
+    min-height: 100px;
+    margin-bottom: 60px;
+    color: #dbb145;
+    font-family: 'Gotham bold', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.col-aviso {
+    margin-bottom: 20px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+}
+
+.desc-condiciones {
+    margin-bottom: 90px;
+    font-size: 24px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, .8);
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Geogtq rg', sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+    .titulo-condiciones {
+        min-height: 100px;
+        margin-bottom: 10px;
+        font-size: 21px;
+        line-height: 24px;
+        text-align: center;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .container-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .col-aviso {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .desc-condiciones {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .desc-condiciones>a {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .titulo-condiciones {
+        min-height: 100px;
+        margin-bottom: 10px;
+        font-size: 38px;
+        line-height: 44px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .col-aviso {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .desc-condiciones {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .desc-condiciones>a {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .titulo-condiciones {
+        min-height: 100px;
+        margin-bottom: 10px;
+        font-size: 38px;
+        line-height: 44px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .col-aviso {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .desc-condiciones {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .desc-condiciones>a {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .titulo-condiciones {
+        min-height: 100px;
+        margin-bottom: 10px;
+        font-size: 38px;
+        line-height: 44px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .col-aviso {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .desc-condiciones {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .desc-condiciones>a {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .titulo-condiciones {
+        min-height: 100px;
+        margin-bottom: 10px;
+        font-size: 38px;
+        line-height: 44px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .col-aviso {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .desc-condiciones {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .desc-condiciones>a {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 1200px) {
+    .titulo-condiciones {
+        min-height: 100px;
+        margin-bottom: 10px;
+        font-size: 38px;
+        line-height: 44px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-aviso {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .desc-condiciones {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .desc-condiciones>a {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,203 @@
+.container-contacto {
+    background-image: url("../images/rockywall.gif");
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.container_img_contacto {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tabs-submenu-cervezas {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.w-tab-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 7px 30px;
+    text-align: left;
+    cursor: pointer;
+    color: #222222;
+    background-color: #dddddd;
+}
+
+.tab-link {
+    background-color: transparent;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, .6) !important;
+    border: 1px solid #dbb145;
+}
+
+.w-tab-link.w--current {
+    background-color: #C8C8C8;
+}
+
+.tab-link.w--current {
+    background-color: #dbb145;
+    color: #fff !important;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+}
+
+.img-unete {
+    background-image: url(../images/Contacto/banner_contacto_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    padding-left: 0;
+    padding-right: 0%;
+}
+
+label {
+    opacity: 0.6;
+    color: #fff;
+    margin-bottom: 9px;
+    font-family: 'Geogtq md', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+form {
+    margin-top: 45px;
+}
+
+.form-control {
+    height: 32px;
+    margin-bottom: 20px;
+    padding-top: 4px;
+    padding-right: 6px;
+    padding-left: 6px;
+    font-family: 'Geogtq md', sans-serif;
+    color: #000;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+.custom-select {
+    height: 32px;
+    border-radius: 0;
+    font-family: 'Geogtq md', sans-serif;
+    color: #000;
+}
+
+.form-control:focus,
+.custom-select:focus {
+    font-family: 'Geogtq md', sans-serif;
+    color: #000;
+    box-shadow: 0 0 0 0.2rem rgb(220, 178, 56);
+}
+
+.btnEnviar {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    opacity: 0.6;
+    background-color: transparent;
+    font-size: 18px;
+    border: 1px solid #dbb145;
+    -webkit-transition: opacity 200ms ease, padding 200ms ease, all 400ms ease;
+    transition: opacity 200ms ease, padding 200ms ease, all 400ms ease;
+    color: #FFF;
+}
+
+.img-historia {
+    margin-bottom: 20px;
+}
+
+.form-check-label,
+.form-check-label>a {
+    font-size: 14px;
+    color: #dbb145 !important;
+}
+
+.form-check-label>a {
+    text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+    .tabs-submenu-cervezas {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .tab-link {
+        display: block;
+    }
+    .container_img_contacto {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .img-unete {
+        background-size: cover;
+        height: 140px;
+        background-size: 150%;
+        background-position: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .tabs-submenu-cervezas {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .tab-link {
+        display: block;
+    }
+    .img-unete {
+        background-position: center;
+        background-size: 156%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .tabs-submenu-cervezas {
+        width: 100%;
+    }
+    .tab-link {
+        display: inline-block;
+    }
+    .img-unete {
+        background-position: center;
+        background-size: 156%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .img-unete {
+        background-position: center;
+        background-size: 156%;
+        height: 350px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {
+    .img-unete {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+}

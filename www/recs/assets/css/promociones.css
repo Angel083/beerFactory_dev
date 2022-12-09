@@ -1,0 +1,321 @@
+.container-promociones {
+
+    background-image: url("../images/rockywall.gif");
+
+}
+
+
+
+.img-promociones {
+
+    margin-top: 30px;
+
+    margin-bottom: 35px;
+
+}
+
+
+
+#sec-promociones {
+
+    padding-left: 0%;
+
+    padding-right: 0%;
+
+}
+
+
+
+.restricciones {
+
+    font-family: 'Geogtq md', sans-serif;
+
+    font-size: 15px;
+
+    color: #fff;
+
+    line-height: 19px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    margin: auto;
+
+    display: block;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.icon-add-img {
+
+    width: 150px;
+
+    height: 150px;
+
+}
+
+
+
+.col-add-img {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.modal-content-galeria {
+
+    background-color: rgba(5, 5, 5, 0);
+
+}
+
+
+
+.modal-footer-galeria {
+
+    border: none;
+
+}
+
+
+
+.modal-body {
+
+    border: none;
+
+}
+
+
+
+.content-imgs {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.div-opciones {
+
+    position: absolute;
+
+    background-color: inherit;
+
+    padding: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    border-radius: 5px;
+
+}
+
+
+
+.list-group-item-eliminar {
+
+    background-color: initial;
+
+    color: #fff;
+
+}
+
+
+
+.controles {
+
+    width: 100%;
+
+    position: absolute;
+
+    display: block;
+
+    top: 50%;
+
+}
+
+
+
+.btn-left-image,
+
+.btn-next-image {
+
+    background-color: rgba(255, 255, 255, 0);
+
+    border: none;
+
+}
+
+
+
+.list-img {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.btnNextPromo {
+
+    margin-left: auto;
+
+    display: block;
+
+}
+
+
+
+.btnLeftPromo {
+
+    margin-right: auto;
+
+    display: block;
+
+}
+
+
+
+.controles-promo {
+
+    width: 116%;
+
+    position: absolute;
+
+    display: block;
+
+    top: 50%;
+
+    margin-left: 70px;
+
+}
+
+
+
+.modal-dialog-promo {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100%;
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+
+    .controles-promo {
+
+        width: 111%;
+
+        margin-left: 35px;
+
+        top: 25%;
+
+    }
+
+    .svg-rigth,
+
+    .svg-left {
+
+        width: 24px;
+
+        height: 24px;
+
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+
+    .controles-promo {
+
+        width: 110%;
+
+        margin-left: 35px;
+
+    }
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .controles-promo {
+
+        width: 120%;
+
+        margin-left: 60px;
+
+    }
+
+    .modal-body-promo {
+
+        display: -webkit-inline-box;
+
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .controles-promo {
+
+        width: 125%
+
+    }
+
+    .modal-body-promo {
+
+        display: -webkit-inline-box;
+
+    }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .img-back-cervezas {
+
+        width: 100%;
+
+    }
+
+    .modal-body-promo {
+
+        display: -webkit-inline-box;
+
+    }
+
+}

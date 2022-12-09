@@ -1,0 +1,185 @@
+#container-empresas {
+    background-image: url("../images/rockywall.gif");
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-nostros-info {
+    margin-top: 30px;
+}
+
+.tabs-submenu-cervezas {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.w-tab-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 7px 30px;
+    text-align: left;
+    cursor: pointer;
+    color: #222222;
+    background-color: #dddddd;
+}
+
+.tab-link {
+    background-color: transparent;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, .6) !important;
+    border: 1px solid #dbb145;
+}
+
+.w-tab-link.w--current {
+    background-color: #C8C8C8;
+}
+
+.tab-link.w--current {
+    background-color: #dbb145;
+    color: #fff !important;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+}
+
+.img-empresa {
+    background-image: url(../images/Empresa/banner-empresa.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding-left: 0;
+    padding-right: 0%;
+}
+
+.titulo-nosotros {
+    margin-bottom: 5px;
+    font-family: 'Theserif 8 xbold', sans-serif;
+    font-size: 33px;
+    color: hsla(0, 0%, 100%, .9);
+    line-height: 37px;
+}
+
+.texto-nosotros-2 {
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Archer book pro', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.subitulo-nosotros {
+    margin-bottom: 5px;
+    font-family: 'Akzidenzgrotesk lightcond', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #dbb145;
+    text-transform: none;
+}
+
+#container-historia {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+    .tabs-submenu-cervezas {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .tab-link {
+        display: block;
+    }
+    .img-empresa {
+        background-size: cover;
+        height: 200px;
+        background-position: top;
+    }
+    .container-nosotros {
+        margin-top: 30px;
+    }
+    .img-fluid {
+        max-width: 89%;
+        height: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .tabs-submenu-cervezas {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .tab-link {
+        display: inline-block;
+    }
+    .img-empresa {
+        background-size: cover;
+        height: 250px;
+        background-position: top;
+    }
+    .img-fluid {
+        max-width: 89%;
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .tabs-submenu-cervezas {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .tab-link {
+        display: inline-block;
+    }
+    .img-empresa {
+        background-size: cover;
+        height: 300px;
+        background-position: top;
+    }
+    .img-fluid {
+        max-width: 89%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .img-empresa {
+        background-size: cover;
+        height: 400px;
+        background-position: top;
+    }
+    .img-fluid {
+        max-width: 89%;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .img-empresa {
+        background-size: cover;
+        height: 450px;
+        background-position: top;
+    }
+    .img-fluid {
+        max-width: 89%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .img-empresa {
+        background-size: contain;
+        height: 400px;
+        background-position: top;
+    }
+}

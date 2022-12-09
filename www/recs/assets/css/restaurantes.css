@@ -1,0 +1,386 @@
+.container-mapa {
+    background-image: url("..//images/rockywall.gif");
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.card {
+    border: none;
+    background-color: black;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-ubicaciones {
+    position: absolute;
+    margin-top: 20px;
+    left: 30px;
+    z-index: 1;
+    width: 30%;
+    background-image: url(/assets/green_cup.gif);
+    background-position: 0px 0px;
+    background-size: 200px;
+    border-radius: 3px;
+}
+
+.btn-link-ubicacion {
+    color: #dbb145;
+}
+
+.btn-link-ubicacion:hover {
+    color: #dbb145 !important;
+    text-decoration: none;
+}
+
+#btnAddUbicacion {
+    width: 100%;
+}
+
+.svg_edit,
+.svg_eliminar {
+    width: 23px;
+    float: right;
+}
+
+.svg_eliminar {
+    margin-left: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+    .card-ubicaciones {
+        margin-top: 0px;
+        left: 0px;
+    }
+    .card-ubicaciones {
+        position: relative;
+        width: 100%;
+        background-image: url(../images/green_cup.gif) !important;
+    }
+    .card-ubi {
+        background-color: initial;
+    }
+    .accordion>.card>.card-header {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .btn-link-ubicacion {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        font-family: 'Prohibition regular', sans-serif;
+        font-size: 15px;
+        /* color: hsla(0, 0%, 100%, .5); */
+        letter-spacing: 1px;
+        line-height: 17px;
+        text-decoration: none;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .32);
+        -webkit-transition: color 200ms ease, padding 200ms ease;
+        transition: color 200ms ease, padding 200ms ease;
+    }
+    .p-ubicacion-detalle-tel {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .p-ubicacion-detalle {
+        color: hsla(0, 0%, 100%, .41);
+        font-size: 14px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .p-ubicacion-detalle-dias {
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .p-ubicacion-detalle-dir {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .card-ubicaciones {
+        margin-top: 0px;
+        left: 0px;
+    }
+    .card-ubicaciones {
+        position: relative;
+        width: 100%;
+        background-image: url(../images/green_cup.gif) !important;
+    }
+    .card-ubi {
+        background-color: initial;
+    }
+    .accordion>.card>.card-header {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .btn-link-ubicacion {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        font-family: 'Prohibition regular', sans-serif;
+        font-size: 15px;
+        /* color: hsla(0, 0%, 100%, .5); */
+        letter-spacing: 1px;
+        line-height: 17px;
+        text-decoration: none;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .32);
+        -webkit-transition: color 200ms ease, padding 200ms ease;
+        transition: color 200ms ease, padding 200ms ease;
+    }
+    .p-ubicacion-detalle-tel {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .p-ubicacion-detalle {
+        color: hsla(0, 0%, 100%, .41);
+        font-size: 14px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .p-ubicacion-detalle-dias {
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .p-ubicacion-detalle-dir {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card-ubicaciones {
+        background-image: url(../images/green_cup.gif) !important;
+        width: 250px;
+    }
+    .card-ubi {
+        background-color: initial;
+    }
+    .accordion>.card>.card-header {
+        padding-top: 1px;
+    }
+    .btn-link-ubicacion {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        display: inline-block;
+        width: 100%;
+        padding: 9px;
+        text-align: left;
+        font-family: 'Prohibition regular', sans-serif;
+        font-size: 15px;
+        /* color: hsla(0, 0%, 100%, .5); */
+        letter-spacing: 1px;
+        line-height: 17px;
+        text-decoration: none;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .32);
+        -webkit-transition: color 200ms ease, padding 200ms ease;
+        transition: color 200ms ease, padding 200ms ease;
+    }
+    .card-body {
+        padding-left: 10px;
+        padding-right: 6px;
+        padding-bottom: 1px;
+        padding-top: 10px;
+    }
+    .p-ubicacion-detalle {
+        color: hsla(0, 0%, 100%, .41);
+        font-size: 14px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .card-header {
+        padding: .75rem 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card-ubicaciones {
+        background-image: url(../images/green_cup.gif) !important;
+        width: 250px;
+    }
+    .card-ubi {
+        background-color: initial;
+    }
+    .accordion>.card>.card-header {
+        padding-top: 1px;
+    }
+    .btn-link-ubicacion {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        display: inline-block;
+        width: 100%;
+        padding: 9px;
+        text-align: left;
+        font-family: 'Prohibition regular', sans-serif;
+        font-size: 15px;
+        /* color: hsla(0, 0%, 100%, .5); */
+        letter-spacing: 1px;
+        line-height: 17px;
+        text-decoration: none;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .32);
+        -webkit-transition: color 200ms ease, padding 200ms ease;
+        transition: color 200ms ease, padding 200ms ease;
+    }
+    .card-body {
+        padding-left: 10px;
+        padding-right: 6px;
+        padding-bottom: 1px;
+        padding-top: 10px;
+    }
+    .p-ubicacion-detalle {
+        color: hsla(0, 0%, 100%, .41);
+        font-size: 14px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .card-header {
+        padding: .75rem 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .card-ubicaciones {
+        background-image: url(../images/green_cup.gif) !important;
+        width: 250px;
+    }
+    .card-ubi {
+        background-color: initial;
+    }
+    .accordion>.card>.card-header {
+        padding-top: 1px;
+    }
+    .btn-link-ubicacion {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        display: inline-block;
+        width: 100%;
+        padding: 9px;
+        text-align: left;
+        font-family: 'Prohibition regular', sans-serif;
+        font-size: 15px;
+        /* color: hsla(0, 0%, 100%, .5); */
+        letter-spacing: 1px;
+        line-height: 17px;
+        text-decoration: none;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .32);
+        -webkit-transition: color 200ms ease, padding 200ms ease;
+        transition: color 200ms ease, padding 200ms ease;
+    }
+    .card-body {
+        padding-left: 10px;
+        padding-right: 6px;
+        padding-bottom: 1px;
+        padding-top: 10px;
+    }
+    .p-ubicacion-detalle {
+        color: hsla(0, 0%, 100%, .41);
+        font-size: 14px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .card-header {
+        padding: .75rem 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-ubicaciones {
+        background-image: url(../images/green_cup.gif) !important;
+        width: 250px;
+    }
+    .card-ubi {
+        background-color: initial;
+    }
+    .accordion>.card>.card-header {
+        padding-top: 1px;
+    }
+    .btn-link-ubicacion {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        color: hsla(0, 0%, 100%, .5);
+        display: inline-block;
+        width: 100%;
+        padding: 9px;
+        text-align: left;
+        font-family: 'Prohibition regular', sans-serif;
+        font-size: 15px;
+        /* color: hsla(0, 0%, 100%, .5); */
+        letter-spacing: 1px;
+        line-height: 17px;
+        text-decoration: none;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .32);
+        -webkit-transition: color 200ms ease, padding 200ms ease;
+        transition: color 200ms ease, padding 200ms ease;
+        color: #dbb145;
+    }
+    .btn-link-ubicacion:hover {
+        color: #dbb145 !important;
+        text-decoration: none;
+    }
+    .card-body {
+        padding-left: 10px;
+        padding-right: 6px;
+        padding-bottom: 1px;
+        padding-top: 10px;
+    }
+    .p-ubicacion-detalle {
+        color: hsla(0, 0%, 100%, .41);
+        font-size: 14px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .card-header {
+        padding: .75rem 0px;
+    }
+    #map {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #map {
+        height: 900px;
+    }
+}

@@ -1,0 +1,39 @@
+.container-mapa-sitio {
+    background-image: url("../images/rockywall.gif");
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.content-list {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+}
+
+.lista_mapa {
+    color: #FFF;
+    list-style-type: decimal;
+    margin: 0 auto;
+    font-family: 'Geogtq rg', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.lista_mapa>li>a {
+    color: #fff !important;
+}
+
+.titulo-blanco {
+    display: block;
+    margin-bottom: 40px;
+    display: inline-block;
+    /* width: 471px; */
+    font-family: 'Prohibition regular', sans-serif;
+    font-size: 29px;
+    color: #fff;
+    line-height: 31px;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+}
